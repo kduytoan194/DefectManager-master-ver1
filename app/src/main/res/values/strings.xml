@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Defect Management System</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_detail_issue">Issue</string>
+    <string name="title_activity_detail_account">Account</string>
+    <string name="title_activity_detail_project">Project</string>
+    <string name="title_activity_edit_issue">Edit Issue</string>
+    <string name="title_activity_edit_account">Edit Account</string>
+    <string name="title_activity_edit_project">Edit Project</string>
+    <string name="title_activity_create_issue">Create Issue</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="title_activity_create_project">Create Project</string>
+
+    <string-array name="accessLv">
+        <item>Administrator</item>
+        <item>Manager</item>
+        <item>Quality Control Staff</item>
+        <item>Developer</item>
+    </string-array>
+
+    <string-array name="project_status">
+        <item>Stable</item>
+        <item>Development</item>
+        <item>Test</item>
+        <item>Release</item>
+    </string-array>
+    <string-array name="access_level">
+        <item>Admin</item>
+        <item>Developer</item>
+        <item>QualityControlStaff</item>
+        <item>Tester</item>
+        <item>Manager</item>
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/avatarLvItem"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/avatar"
+        app:border_width="0dp" />
+
+    <TextView
+        android:id="@+id/usernameLvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatarLvItem"
+        android:text="dinhduc0605" />
+
+    <TextView
+        android:id="@+id/jobLevelLvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameLvItem"
+        android:layout_toRightOf="@id/avatarLvItem"
+        android:text="Developer" />
+
+    <TextView
+        android:id="@+id/realNameLvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/jobLevelLvItem"
+        android:text="Nguyen Dinh Duc" />
+</RelativeLayout>
